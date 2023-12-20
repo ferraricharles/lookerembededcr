@@ -19,6 +19,8 @@ If you didn't yet, before running the code [install gcloud command](https://clou
 
 After answering the prompt questions, gcloud will then containerise the application and push as a new revision of the specified service.
 
-Extra configurations such as unnauthenticated calls and users might be necessary and can be done from the GCP console.
+Extra configurations such as unnauthenticated calls and users might be necessary and can be done from the GCP console. 
 
-After testing, it is highly recommended that you delete your cloud run instance to not consume resources or impose risks to your project.
+By embeding the public URL of Cloud Run, this should then redirect the iframe to a signed URL that would allow your end user to have access to the instance.
+
+After testing, it is highly recommended that you delete your cloud run instance to not consume Looker and Compute resources or impose risks to your project.
