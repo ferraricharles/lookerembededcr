@@ -10,9 +10,10 @@ Using this example you are expected to:
 
 
 After editing the information, the example can be quickly packed and deployed to cloud run by using the following code:
-(from the folder where you have the example)
+If you didn't yet, before running the code [install gcloud command](https://cloud.google.com/sdk/docs/install), and then [log in](https://cloud.google.com/sdk/gcloud/reference/auth/login) 
 
 ```
+    // cd to the folder where the code is
     gcloud run deploy [SERVICE NAME] --source .
 ```
 
